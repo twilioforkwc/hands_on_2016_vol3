@@ -25,8 +25,7 @@ $token = $capability->generateToken();
       type="text/css" rel="stylesheet" />
     <script type="text/javascript">
 
-      Twilio.Device.setup("<?php echo $token; ?>", { debug: true, closeProtectio
-n: true, region: "jp1"});
+      Twilio.Device.setup("<?php echo $token; ?>", { debug: true, closeProtection: true, region: "jp1"});
 
       Twilio.Device.ready(function (device) {
         $("#log").text("Ready");
