@@ -4,10 +4,10 @@
   echo "<?xml version=\"1.0\" encoding=\"UTF-8\"?>\n";
 
   // ホスト名
-  $host = "https://acedemo043.secure.ne.jp";
+  $host = "https://example.com";
 
   // ここにAuthTokenを記入
-  $authToken = '631b917644f82ae1476b3c40c005a5c3';
+  $authToken = 'xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx';
 
   // PHPヘルパーライブラリをインクルード
   require_once('../twilio-php/Services/Twilio.php');
